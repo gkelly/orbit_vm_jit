@@ -1,4 +1,4 @@
-* orbit_vm_jit
+= orbit_vm_jit
 In 2009 I competed with several of my classmates from SE2011 in the ICFP
 contest. By 'competed' I should clarify that all I did was write the VM. The
 rest of the team actually did the problem-solving goo.
@@ -13,7 +13,7 @@ non-JIT VM as well, but the snapshot of the SVN repo that I have is a heavily
 hacked-upon version, and the repo that held the history is long since gone (go
 SVN!).
 
-* Why not LLVM?
+= Why not LLVM?
 Because it's hideous.
 
 orbit_vm_jit uses libjit, which is _exactly_ what a library should look like.
